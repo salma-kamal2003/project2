@@ -1,0 +1,248 @@
+.margin{
+    margin-right: 2rem;
+}
+.color{
+    color: rgb(207, 54, 54) !important;
+}
+.imgeone{
+    width: 30%;
+    
+}
+.imgetwo{
+    width: 39%;
+    
+    
+    height: 40rem;
+}
+.imgethree{
+    width: 30%;
+   
+}
+.one{
+    border-radius: 3rem;
+}
+.fontfamily{
+    font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Instrument Serif', serif;
+font-family: 'Kalam', cursive;
+}
+.center{
+  text-align: center;
+  margin-right: 6rem;
+  
+}
+.margin{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.margein1{
+  margin-right: 2rem;
+}
+.margin2{
+  margin-right: 2rem;
+ color: black ;
+}
+a:hover{
+  color: blue;
+}
+.border{
+  border-radius: 3rem;
+  text-align: center;
+}
+.container1{
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.margin3{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.three{
+  position: relative;
+  text-align: center;
+}
+.text-block {
+  position: absolute;
+}
+.bg{
+  background-color: rgb(169, 78, 78);
+  color: white;
+}
+.div1{
+  background-image: url(../imges/pexels-pankaj-biswas-57542.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div1:hover{
+background:rgb(29, 27, 27) ;
+}
+.pare{
+  opacity: 0;
+}
+.pare:hover{
+  opacity: 1;
+  color:white;
+}
+
+.div2{
+  background-image: url(../imges/pexels-cottonbro-studio-5473399.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div2:hover{
+  background: black;
+}
+.div3{
+  background-image: url(../imges/pexels-apostolos-vamvouras-2918562.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div3:hover{
+  background: black;
+}
+.div4{
+  background-image: url(../imges/pexels-nataliya-vaitkevich-5122188.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div4:hover{
+  background: black;
+}
+.div5{
+  background-image: url(../imges/pexels-cottonbro-studio-4057750.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div5:hover{
+  background: black;
+}
+.div6{
+  background-image: url(../imges/pexels-hasan-albari-1130167.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+}
+.div6:hover{
+  background: black;
+}
+.post{
+  text-decoration: none;
+  color: black;
+}
+.post:hover{
+color: brown;
+}
+.decoration{
+  text-decoration-line: none;
+  color: black;
+}
+.decoration:hover{
+color: rgb(228, 124, 124);
+}
+.icon{
+  color: black;
+}
+.icon:hover{
+  color: rgb(232, 102, 102);
+}
+.cola{
+  background-color: rgb(255, 234, 234);
+}
+.gap{
+  gap: 6rem;
+}
+.div7{
+  margin-top: 9rem;
+}
+.div8{
+  text-decoration-line: none;
+  color: black;
+}
+.div8:hover{
+  color:rgb(232, 102, 102); 
+}
+.div9{
+  text-decoration-line: none;
+  color: black;
+}
+.div9:hover{
+  color: rgb(232, 102, 102); 
+}
+.icon2{
+  color: black;
+}
+.icon2:hover{
+  color: blue;
+}
+.color2{
+  background-color:  rgb(254, 225, 225);
+  height: 1100px;
+}
+.div10{
+  margin-top: 3rem;
+}
+.div11{
+ color: black;
+ text-decoration-line: none;
+}
+.div11:hover{
+  color: white;
+}
+.zoom{
+  transition: transform .6s;
+}
+.zoom:hover {
+  transform: scale(1.1); 
+}
+.imges{
+  padding-top: 190px;
+}
+.card{
+  width: 307px;
+}
+.links:hover{
+color:  rgb(207, 54, 54);
+}
+.imge2{
+  padding: 0;
+  margin-top: 0;
+}
+.padding2{
+  padding-top: 190px;
+}
+.padding3{
+  margin-top: 220px;
+}
+.padding4{
+  margin-top: 220px;
+}
+.div12{
+  color: rgb(246, 152, 152);
+  text-decoration-line: none;
+}
+.div12:hover{
+  text-decoration-line: underline;
+  color: rgb(246, 152, 152);
+}
+.margin3{
+  margin-top: 250px;
+}
+.div13{
+  text-decoration-line: none;
+  color: black;
+}
+.div13:hover{
+ color: rgb(232, 102, 102);
+}
+.contact:focus{
+  color:  rgb(207, 54, 54) ;
+}

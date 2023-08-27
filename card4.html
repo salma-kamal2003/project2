@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<!--navbars-->
+<div class="fixed-top">
+    <!--first navbar-->
+    <nav class="navbar navbar-expand-md bg-white">
+        <div class="container">
+
+            <span class="navbar-brand fs-2 fontfamily">
+                Wix
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--icone of phone and laptop-->
+            <div class="d-flex">
+                <div class=" center ">
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" fill="currentColor"
+                            class="bi bi-laptop" viewBox="0 0 16 16">
+                            <path
+                                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                        </svg></a>
+
+                    <div class="vr margin" style="height: 2rem;"></div>
+
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="35" fill="currentColor"
+                            class="bi bi-phone" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg></a>
+
+                </div>
+                <div class="d-flex">
+                    <!--right navbar-->
+                    <span class="fs-6 margein1 mt-2">click edit and create your own amazeing website</span>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="margin2 mt-2">Read
+                        more</a>
+                    <button class="btn btn-primary one fs-6 btn-lg"> &nbsp;&nbsp; Edit this site
+                        &nbsp;&nbsp;</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--secound navbar-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
+        <div class="container">
+            <div class="navbar-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <form class="d-inline-block">
+                    <input type="text" id="search"
+                        style="border: 0; outline: 0; border-bottom: 1px solid black; background:black; color:whitesmoke;"
+                        placeholder="search..." />
+                </form>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://www.facebook.com/wix?mibextid=ZbWKwL"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://instagram.com/wix?igshid=NjIwNzIyMDk2Mg=="><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://twitter.com/Wix/with_replies"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                                href="https://www.bing.com/search?q=wix+in+pinterest&FORM=AWRE"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-pinterest" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!--third navbar-->
+    <nav class="navbar navbar-expand-md bg-transparent">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="#">Turnning Heads</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active color" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link links" href="plog.html">My Plog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link links" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link links" href="#contact">Contact</a>
+                        </li>
+
+                </div>
+            </form>
+        </div>
+    </nav>
+</div>
+
+<!--cards-->
+<div class="container padding3">
+    <div class="mt-5">
+        <a href="./plog.html" class="div9">All Post</a>
+    </div>
+    <div class="mt-4">
+        <div class="row justify-content-center gap-5">
+            <div class="col-md-5 mt-5 mb-5">
+                <div class="row justify-content-center gap-5 mb-5">
+                    <div class="col-md-8">
+                        <h6 class="mt-3 mb-3 small">Mar 22 . 2 min read</h6>
+                    </div>
+                    <div class="col-md-1 ms-5 mt-2">
+                        <a href="" class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="mb-4">The things we carry, and what we can let go of</h2>
+                <p class="fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy
+                    sentences and entices your audience to continue reading.</p>
+                <img src="./imges/pexels-darcy-lawrey-2813366.jpg" alt="imge of wearing"
+                    style="height: 600px; width: 500px;">
+                <p class="mt-4 mb-4 small">Welcome to your blog post. Use this space to connect with your readers
+                    and potential customers in a way that’s current and interesting. Think of it as an ongoing
+                    conversation where you can share updates about business, trends, news, and more.</p>
+                <h4>Design with Ease</h4>
+                <p class="mt-5">“Do you have a design in mind for your blog? Whether you prefer a trendy postcard
+                    look or you’re going for a more editorial style blog - there’s a stunning layout for everyone.”
+                </p>
+                <p class="mt-5">Every layout comes with the latest social features built in. Readers will be able to
+                    easily share posts on social networks like Facebook and Twitter, view how many people have liked
+                    a post, made comments and more. With Wix, building your online community has never been easier.
+                </p>
+                <h4 class="mt-4">Create Relevant Content</h4>
+                <p class="mt-4">You’ll be posting loads of engaging content, so be sure to keep your blog organized
+                    with Categories that also allow readers to explore more of what interests them. Each category of
+                    your blog has its own page that’s fully customizable. Add a catchy title, a brief description
+                    and a beautiful image to the category page header to truly make it your own. You can also add
+                    tags (<a href="./feeeds.html" class="div12">#vacation</a> <a href="./feeeds.html" class="div12">#dreems</a> <a href="./feeeds.html" class="div12">#summern</a>) throughout your posts to reach more people, and help readers
+                    search for relevant content. Using hashtags can expand your post reach and help people find the
+                    content that matters to them. Go ahead, <a href="./feeeds.html" class="div12">#hashtag</a> away. </p>
+                <h4 class="mt-4">Stun Your Readers</h4>
+                <p class="mt-4 fs-5">“Be original, show off your style, and tell your story.”</p>
+                <p class="mt-4">Blogging gives your site a voice, so let your business’ personality shine through.
+                    Are you a creative agency? Go wild with original blog posts about recent projects, cool
+                    inspirational ideas, or what your company culture is like. Add images, and videos to really
+                    spice it up, and pepper it with slang to keep readers interested. Are you a programmer? Stay on
+                    the more technical side by offering weekly tips, tricks, and hacks that show off your knowledge
+                    of the industry. No matter what type of business you have, one thing is for sure - blogging
+                    gives your business the opportunity to be heard in a way in a different and unconventional way.
+                </p>
+                <h4 class="mt-4">Get Inspired</h4>
+                <p class="mt-4 mb-5">To keep up with all things Wix, including website building tips and interesting
+                    articles, head over to the Wix Blog. You may even find yourself inspired to start crafting your
+                    own blog, adding unique content, and stunning images and videos. Start creating your own blog
+                    now. Good luck!</p>
+                <hr>
+                <div class="d-flex mb-5">
+                    <a class="nav-link active" aria-current="page"
+                        href="https://www.facebook.com/wix?mibextid=ZbWKwL"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-facebook me-5 icon2"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a>
+                    <a class="nav-link active" href="https://twitter.com/Wix/with_replies"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter me-5 icon2" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a>
+                    <a href="https://www.linkedin.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin me-5 icon2" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.wix.com/demone2/life-blog/post/transform-your-winter-blues-into-winter-creativity"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-link-45deg icon2 " viewBox="0 0 16 16">
+                            <path
+                                d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                            <path
+                                d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                        </svg></a>
+                </div>
+                <div class="row justify-content-center gap-5 mb-4">
+                    <div class="col-md-8">
+                        <p>Recent Posts</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="./plog.html" class="div9">See All</a>
+                    </div>
+                </div>
+
+                <!--the last two imge-->
+                <div class="row justify-content-center gap-4">
+                    <div class="col-md-5 zoom">
+                        <a href="./card1.html"><img src="./imges/pexels-anna-tarazevich-6358799.jpg" alt="photo of coffee"
+                            style="width: 210px; height: 200px;"></a><br><br>
+                        <a href="" class="div9">transform your winter blues into winter creativity</a>
+                    </div>
+                    <div class="col-md-5 zoom">
+                        <a href="./card3.html"><img src="./imges/istockphoto-1356513144-1024x1024.jpg" alt="photo of coffee"
+                            style="width: 220px; height: 200px;"></a><br><br>
+                        <a href="" class="div9">5 reason to waake at 5am</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5 color2">
+                <div class="mt-3">
+                    <div class="text-center">
+                        <div class="mt-3">
+                            <img src="./imges/pexels-vinicius-wiesehofer-1130626.jpg" alt="a photo of a girl"
+                                style="width: 250px; height: 250px;" class="div10">
+                        </div>
+                        <div class="center">
+                            <h4 class="mt-4">Hi, thanks for stopping by!</h4>
+                            <p class="mt-4 ms-3 mb-3">I'm a paragraph. Click here to add your own text and edit me.
+                                I’m a great place for you to tell a story and let your users know a little more
+                                about you.</p>
+                            <button class="btn btn-outline-danger">
+                                <a href="./about.html" class="div11">Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mt-5 p-0 ms-3" style="width: 17rem; height: 10rem;">
+                        <div class="card-body " style="background-color:rgb(212, 122, 89);">
+                            <div class="card-header border-0 mt-3">
+                                <h3 class="text-center  ms-2" style="color: white;">Let the posts come to you</h3>
+                            </div>
+                            <p class="card-text mt-5">
+                            <div class="row justify-content-center">
+                                <form>
+                                    <label for="email">
+                                        <h6>Email*</h6>
+                                    </label> <br>
+                                    <input
+                                        style="border: 0; outline: 0; border-bottom: 1px solid white; background-color: rgb(212, 122, 89);"
+                                        type="email" id="email" class="form-control" required>
+                                    <button class="btn btn-outline-dark btn-light mt-4 ms-5"
+                                        type="submit">subscribe</button>
+                                </form>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="mt-3 mb-5">
+                            <div class="container text-center">
+                                <div class="d-inline-block me-4">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="https://www.facebook.com/wix?mibextid=ZbWKwL"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                        </svg></a>
+                                </div>
+                                <div class="d-inline-block me-4">
+                                    <a class="nav-link active"
+                                        href="https://instagram.com/wix?igshid=NjIwNzIyMDk2Mg=="><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg></a>
+                                </div>
+                                <div class="d-inline-block me-4">
+                                    <a class="nav-link active" href="https://twitter.com/Wix/with_replies"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                            <path
+                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                        </svg></a>
+                                </div>
+                                <div class="d-inline-block me-4">
+                                    <a class="nav-link active"
+                                        href="https://www.bing.com/search?q=wix+in+pinterest&FORM=AWRE"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--the button background-->
+<div class="bg-danger-subtle" id="contact">
+    <div class="container">
+        <div class="row justify-content-center ">
+            <h1 class="text-center mt-5 mb-5">Let me know what's on your mind</h1>
+            <div class="row justify-content-center gap-5">
+                <div class="col-md-3">
+                    <form class="mb-5">
+                        <label for="firstname">First Name</label> <br>
+                        <input type="text" id="firstname" class="form-control" required
+                            style="border: 0; outline: 0; border-bottom: 1px solid rgb(0, 0, 0); background:transparent; color:rgb(0, 0, 0);" />
+                    </form>
+                    <form class="mb-5">
+                        <label for="email">Email*</label> <br>
+                        <input type="text" id="email" class="form-control" required
+                            style="border: 0; outline: 0; border-bottom: 1px solid rgb(0, 0, 0); background:transparent; color:rgb(0, 0, 0);" />
+                    </form>
+                </div>
+                <div class="col-md-3 ">
+                    <form class="mb-5">
+                        <label for="lastname">Last Name</label> <br>
+                        <input type="text" id="lastname" class="form-control" required
+                            style="border: 0; outline: 0; border-bottom: 1px solid rgb(0, 0, 0); background:transparent; color:rgb(0, 0, 0);" />
+                    </form>
+                    <form class="mb-5">
+                        <label for="message">Leave us a message...</label> <br>
+                        <input type="text" id="message" class="form-control" required
+                            style="border: 0; outline: 0; border-bottom: 1px solid rgb(0, 0, 0); background:transparent; color:rgb(0, 0, 0);" />
+                    </form>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 d-flex" id="submit">
+                        <button class="btn btn-outline-danger flex-fill mb-5" type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--the last icon-->
+<div class="bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 ms-5 mt-3 mb-3">
+                <h6 >&#169;2035 by Turning Heads. Powered and secured by <a style="color: white;"
+                        href="https://wix.com/?utm_campaign=vir_created_with">Wix</a></h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-lg modal-dialog-centered ">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-header border-0">
+                    <h1>Personal Blog - Website Template</h1><br>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <h6>Good For:</h6>
+                <p>Bloggers, vloggers and online influencers></p><br>
+                <h6>Description:</h6>
+                <p>Proudly show the world who you are. The Wix Blog is the ultimate tool to
+                    promote yourself or your brand, grow your following, or even make some
+                    money. This design is like a clean slate, perfect for you to shape and make
+                    your own. Ready to share your vision? Click “Edit” to begin.</p>
+                <br><br><br><br><br>
+                <div class="container1">
+                    <button class="btn btn-primary">Edit Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
